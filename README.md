@@ -26,7 +26,7 @@ Evento exclusivo e gratuito, promovido pela Rocketseat para ensino de tecnologia
 Esse projeto foi desenvolvido com as seguintes tecnologias:
 
 - HTML e CSS
-- JavaScript e 
+- JavaScript e
 - Git e Github
 
 ## 💻 Projeto
@@ -43,4 +43,8 @@ Esse projeto está sob a licença MIT.
 
 ---
 
-Feito com ♥ by Rocketseat :wave: [Participe da nossa comunidade!](https://discord.gg/rocketseat)
+Feito por Ueslei Alan Arend
+
+## Contato
+
+ualanarend49@gmail.com

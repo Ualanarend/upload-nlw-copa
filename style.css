@@ -34,27 +34,31 @@ body * {
   font-family: "Roboto", sans-serif;
 }
 
-#fases {
-  display: flex;
-
-  flex-direction: row;
-  flex-wrap: wrap;
-}
 
 a {
   text-decoration: none;
   color: #35875d;
+ 
 }
 
 ul {
   list-style: none;
+   display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  text-align: center;
+  justify-content: center;
+}
+
+li {
+ padding: 5px;
 }
 
 #app {
   width: fit-content;
   margin: 52px auto;
   max-width: 1400px;
-  text-align: center;
+ 
 }
 
 header {

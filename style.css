@@ -3,6 +3,25 @@
   padding: 0;
   box-sizing: border-box;
 }
+* {
+  scrollbar-width: thin;
+  scrollbar-color: #35875d;
+}
+
+/* Works on Chrome, Edge, and Safari */
+*::-webkit-scrollbar {
+  width: 10px;
+}
+
+*::-webkit-scrollbar-track {
+  background: #121214;
+}
+
+*::-webkit-scrollbar-thumb {
+  background-color: #121214;
+  border-radius: 20px;
+  border: 2px solid #35875d;
+}
 
 :root {
   --card-title-border-color: #746615;
@@ -33,16 +52,14 @@ body * {
   font-family: "Roboto", sans-serif;
 }
 
-
 a {
   text-decoration: none;
   color: #35875d;
- 
 }
 
 ul {
   list-style: none;
-   display: flex;
+  display: flex;
   flex-direction: row;
   flex-wrap: wrap;
   text-align: center;
@@ -50,14 +67,13 @@ ul {
 }
 
 li {
- padding: 5px;
+  padding: 5px;
 }
 
 #app {
   width: fit-content;
   margin: 52px auto;
   max-width: 1400px;
- 
 }
 
 header {

@@ -26,6 +26,7 @@ body {
   background-color: #121214;
   background-image: url(./assets/bg.svg);
   background-repeat: no-repeat;
+  background-size: 100%;
 }
 
 body * {

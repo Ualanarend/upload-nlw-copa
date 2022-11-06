@@ -19,22 +19,35 @@ body.green {
   --card-color-primary: #35875d;
 }
 
-ul {
-  list-style: none;
-}
 body * {
   font-family: "Roboto", sans-serif;
 }
 body {
   background-color: #121214;
   background-image: url(./assets/bg.svg);
-  background-position: center;
-  background-size: cover;
+
+  background-size: 100%;
   background-repeat: no-repeat;
 }
 
 body * {
   font-family: "Roboto", sans-serif;
+}
+
+#fases {
+  display: flex;
+  
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+a {
+  text-decoration: none;
+  color: #35875d;
+}
+
+ul {
+  list-style: none;
 }
 
 #app {

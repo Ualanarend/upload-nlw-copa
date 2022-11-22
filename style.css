@@ -191,3 +191,8 @@ header {
     flex-wrap: wrap;
   }
 }
+
+#fases ul li button {
+  background-color: transparent;
+  border-radius: 1px solid black;
+}

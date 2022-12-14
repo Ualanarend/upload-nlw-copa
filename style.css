@@ -93,6 +93,94 @@ header {
   flex-wrap: wrap;
 }
 
+#cards1 {
+  display: flex;
+  gap: 32px;
+  align-items: flex-start;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+ .card1 {
+  padding: 32px 32px;
+  text-align: center;
+
+  background: #030305;
+  border-bottom: 2px solid var(--card-color-primary);
+  border-radius: 6px;
+}
+.card1 h2 {
+  display: flex;
+  gap: 16px;
+  justify-content: center;
+  align-items: center;
+
+  padding: 8px 16px;
+  border: 1px solid var(--card-title-border-color);
+  border-radius: 6px;
+
+  width: fit-content;
+  margin-inline: auto;
+  margin-bottom: 53px;
+
+  color: #f7dd43;
+}
+
+.card1 h2 span {
+  color: #e1e1e6;
+  font-size: 50px;
+  text-transform: uppercase;
+}
+
+.card1 ul li img {
+  width: 200px;
+  height: 200px;
+}
+
+.card1 ul {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+
+  width: 270px;
+}
+
+.card1 ul li {
+  
+  align-items: center;
+  justify-content: space-between;
+}
+
+.card1 ul li + li {
+  padding-top: 24px;
+  border-top: 1px solid #323238;
+}
+
+.card1 ul li strong {
+  font-weight: 900;
+  font-size: 36px;
+  line-height: 125%;
+
+  color: #e1e1e6;
+}
+
+.card1 h2:hover,
+.card1 ul li strong:hover,
+.card1 ul li img:hover {
+  transform: scale(1.1);
+}
+
+.card h2,
+.card ul li strong,
+.card ul li img {
+  transition: transform 0.3s;
+}
+
+.card {
+  opacity: 0;
+  animation: appear 2s forwards;
+} 
+
 .card {
   padding: 32px 32px;
   text-align: center;
@@ -196,3 +284,9 @@ header {
   background-color: transparent;
   border-radius: 1px solid black;
 }
+
+#fases ul li button:hover,
+.card1 ul li strong:hover,
+.card1 ul li img:hover {
+  transform: scale(1.1);
+  }

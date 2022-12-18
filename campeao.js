@@ -23,5 +23,5 @@ function createCard(date, day, games) {
 document.querySelector("#cards1").innerHTML = createCard(
   "",
   "campeão",
-  createGame("undefined")
+  createGame("argentina")
 )
